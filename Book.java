@@ -14,6 +14,7 @@ public class Book extends LibraryItem implements Loanable {
         return author;
     }
 
+
     public void setAuthor(String author) {
         this.author = author;
     }
@@ -62,3 +63,4 @@ public class Book extends LibraryItem implements Loanable {
                 '}';
     }
 }
+
