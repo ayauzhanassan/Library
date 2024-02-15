@@ -3,6 +3,7 @@ public abstract class LibraryItem {
     protected String title;
     protected boolean isAvailable;
 
+
     public LibraryItem(int itemId, String title, boolean isAvailable) {
         this.itemId = itemId;
         this.title = title;
