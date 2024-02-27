@@ -1,6 +1,14 @@
 package entities;
 
-public class User {
+import interfaces.admin.deleteAuthor;
+import interfaces.admin.deleteBook;
+import interfaces.admin.insertAuthor;
+import interfaces.admin.insertBook;
+import interfaces.ordmember.borrowBook;
+import interfaces.ordmember.returnBook;
+import interfaces.watchLoans;
+
+public class User implements deleteAuthor, deleteBook, insertAuthor, insertBook, borrowBook, returnBook, watchLoans{
     private int userId;
     private String firstName;
     private String lastName;
