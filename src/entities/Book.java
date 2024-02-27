@@ -7,12 +7,12 @@ public class Book {
     private int publishedYear;
     private boolean isAvailable;
 
-    public Book(){}
+    public Book() {};
 
-    public Book(String title, int authorId, int publishedYear, boolean isAvailable) {
+    public Book(String title, int authorId, int publishYear, boolean isAvailable) {
         this.title = title;
         this.authorId = authorId;
-        this.publishedYear = publishedYear;
+        this.publishedYear = publishYear;
         this.isAvailable = isAvailable;
     }
 
@@ -40,12 +40,12 @@ public class Book {
         this.authorId = authorId;
     }
 
-    public int getPublishedYear() {
+    public int getPublishYear() {
         return publishedYear;
     }
 
-    public void setPublishedYear(int publishedYear) {
-        this.publishedYear = publishedYear;
+    public void setPublishYear(int publishYear) {
+        this.publishedYear = publishYear;
     }
 
     public boolean isAvailable() {
