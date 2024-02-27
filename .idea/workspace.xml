@@ -27,7 +27,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Пользователь/IdeaProjects/LibraryManagementSystem1",
+    "last_opened_file_path": "C:/Users/Пользователь/IdeaProjects/LibraryManagementSystem1/src/entities/Loan.java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -45,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709058342029</updated>
-      <workItem from="1709058343046" duration="2363000" />
+      <workItem from="1709058343046" duration="3629000" />
     </task>
     <servers />
   </component>

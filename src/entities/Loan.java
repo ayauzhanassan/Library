@@ -3,21 +3,24 @@ package entities;
 import java.sql.Date;
 
 public class Loan {
-
+    // Fields to represent loan details
     private int loanId;
     private int memberId;
     private int bookId;
     private Date loanDate;
     private Date returnDate;
 
-    public Loan(){}
+    public Loan(){ // Default constructor
+
+    }
+    // Parameterized constructor
     public Loan(int memberId, int bookId, Date loanDate, Date returnDate) {
         this.memberId = memberId;
         this.bookId = bookId;
         this.loanDate = loanDate;
         this.returnDate = returnDate;
     }
-
+    // Getters and setters for loan fields
     public int getLoanId() {
         return loanId;
     }
@@ -58,6 +61,7 @@ public class Loan {
         this.returnDate = returnDate;
     }
 
+    // Override toString() method to provide a meaningful string representation of the Loan object
     @Override
     public String toString() {
         return "Loan{" +
