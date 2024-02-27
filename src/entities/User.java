@@ -1,14 +1,12 @@
 package entities;
-
-import interfaces.admin.deleteAuthor;
-import interfaces.admin.deleteBook;
-import interfaces.admin.insertAuthor;
-import interfaces.admin.insertBook;
-import interfaces.ordmember.borrowBook;
-import interfaces.ordmember.returnBook;
+import interfaces.ordinary_user.*;
+import interfaces.admin.*;
 import interfaces.watchLoans;
 
-public class User implements deleteAuthor, deleteBook, insertAuthor, insertBook, borrowBook, returnBook, watchLoans{
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+public abstract class User implements borrowBook, returnBook, insertBook, deleteBook, insertAuthor, deleteAuthor, watchLoans{
     private int userId;
     private String firstName;
     private String lastName;
@@ -26,12 +24,12 @@ public class User implements deleteAuthor, deleteBook, insertAuthor, insertBook,
         this.isAdmin = isAdmin;
     }
 
-    public int getUserUd() {
+    public int getUserId() {
         return userId;
     }
 
-    public void setUserId(int userUd) {
-        this.userId = userUd;
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
     public String getFirstName() {
@@ -77,12 +75,50 @@ public class User implements deleteAuthor, deleteBook, insertAuthor, insertBook,
     @Override
     public String toString() {
         return "User{" +
-                "userUd=" + userId +
+                "userId=" + userId +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
-                (isAdmin ? ", admin " : " has no admin credentials ") +
-                ", isAdmin=" + isAdmin +
+                (isAdmin ? " admin " : " has no admin rights ") +
                 '}';
     }
+
+    @Override
+    public void getLoans() throws SQLException {
+
+    }
+
+    @Override
+    public void borrowBook() {
+
+    }
+
+    @Override
+    public void returnBook() {
+
+    }
+
+    @Override
+    public void insertBook() {
+
+    }
+
+    @Override
+    public void deleteBook() {
+
+    }
+
+    @Override
+    public void insertAuthor() {
+
+    }
+
+    @Override
+    public void deleteAuthor() {
+
+    }
+
+    public abstract void getLoans(ArrayList<Loan> loans) throws SQLException;
+
+    public abstract void getLoans(ArrayList<Loan> loans, int userId) throws SQLException;
 }
