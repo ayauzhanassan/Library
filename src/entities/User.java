@@ -73,7 +73,7 @@ public class User {
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
-                ", passwordHash='" + passwordHash + '\'' +
+                (isAdmin ? ", admin " : " has no admin credentials ") +
                 ", isAdmin=" + isAdmin +
                 '}';
     }
