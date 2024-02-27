@@ -68,7 +68,48 @@ public class OrdMember extends User{
     }
 
     @Override
-    public void borrowBook(int bookId) throws SQLException {}
+    public void borrowBook(int bookId) throws SQLException {
+
+        Date currentDate = new Date(System.currentTimeMillis());
+
+        Connection conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/library11", "postgres", "123");
+
+        try(conn) {
+            String sql = "UPDATE books SET isavailable = false WHERE bookid = ? AND isavailable = true";
+            PreparedStatement stmn = conn.prepareStatement(sql);
+
+            stmn.setInt(1, bookId);
+
+            int rowsAffected = stmn.executeUpdate();
+
+            if (rowsAffected > 0) {
+                String insertSql = "INSERT INTO loans (memberid, bookid, loandate) VALUES (?, ?, ?)";
+                stmn = conn.prepareStatement(insertSql);
+
+                stmn.setInt(1, this.getUserId());
+                stmn.setInt(2, bookId);
+                stmn.setDate(3, currentDate);
+
+                stmn.executeUpdate();
+
+                System.out.println("You have successfully borrowed the book!");
+            } else {
+                System.out.println("This book is not available");
+            }
+        } catch (SQLException e)  {
+            System.out.println("connection error: " + e.getMessage());
+        } finally {
+            if (conn != null) {
+                try {
+                    conn.close();
+                } catch (SQLException e) {
+                    System.out.println("could not close the connection: " + e.getMessage());
+                }
+            }
+        }
+
+
+    }
 
     @Override
     public void returnBook(int bookId) throws SQLException {
