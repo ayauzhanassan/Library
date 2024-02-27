@@ -4,233 +4,75 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01b90a11-8d85-4c52-98ba-14f070252c26" name="Changes" comment="Main class, admins and ordmembers actions">
-      <change afterPath="$PROJECT_DIR$/src/interfaces/ordmember/borrowBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/ordmember/returnBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/User.java" afterDir="false" />
-    </list>
+    <list default="true" id="5bf39db7-b578-4198-9ebc-2c9b73859548" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Interface" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
-  <component name="ProjectId" id="2cx8qVnKp9zn40yl0ybchnnVv29" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2cxfq3M1VjCuW8JzZkLOcSvHmkv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/b_bac/Downloads/postgresql-42.7.1.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
-    ]
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Пользователь/IdeaProjects/LibraryManagementSystem1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Пользователь/IdeaProjects/LibraryManagementSystem1/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
-      </set>
-    </attachedChunks>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="01b90a11-8d85-4c52-98ba-14f070252c26" name="Changes" comment="" />
-      <created>1709042063171</created>
+      <changelist id="5bf39db7-b578-4198-9ebc-2c9b73859548" name="Changes" comment="" />
+      <created>1709058342029</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1709042063171</updated>
-      <workItem from="1709042064244" duration="5234000" />
+      <updated>1709058342029</updated>
+      <workItem from="1709058343046" duration="2363000" />
     </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1709042620107</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1709042620107</updated>
-    </task>
-    <task id="LOCAL-00002" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1709042729171</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1709042729171</updated>
-    </task>
-    <task id="LOCAL-00003" summary="2nd commit">
-      <option name="closed" value="true" />
-      <created>1709042778765</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1709042778765</updated>
-    </task>
-    <task id="LOCAL-00004" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1709042986780</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1709042986780</updated>
-    </task>
-    <task id="LOCAL-00005" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1709043212234</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1709043212234</updated>
-    </task>
-    <task id="LOCAL-00006" summary="User class">
-      <option name="closed" value="true" />
-      <created>1709044122922</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1709044122922</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Log In and user class">
-      <option name="closed" value="true" />
-      <created>1709044556745</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1709044556745</updated>
-    </task>
-    <task id="LOCAL-00008" summary="admin, ordmember, loan, book classes were created">
-      <option name="closed" value="true" />
-      <created>1709044984530</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1709044984530</updated>
-    </task>
-    <task id="LOCAL-00009" summary="author class created">
-      <option name="closed" value="true" />
-      <created>1709045121112</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1709045121113</updated>
-    </task>
-    <task id="LOCAL-00010" summary="log in  and sigh up handled">
-      <option name="closed" value="true" />
-      <created>1709045938752</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1709045938752</updated>
-    </task>
-    <task id="LOCAL-00011" summary="log in  and sigh up handled">
-      <option name="closed" value="true" />
-      <created>1709046059966</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1709046059966</updated>
-    </task>
-    <task id="LOCAL-00012" summary="log in  and sigh up handled">
-      <option name="closed" value="true" />
-      <created>1709046133649</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1709046133649</updated>
-    </task>
-    <task id="LOCAL-00013" summary="log in  and sigh up handled">
-      <option name="closed" value="true" />
-      <created>1709046147735</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1709046147735</updated>
-    </task>
-    <task id="LOCAL-00014" summary="interfaces">
-      <option name="closed" value="true" />
-      <created>1709046314917</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1709046314917</updated>
-    </task>
-    <task id="LOCAL-00015" summary="interfaces">
-      <option name="closed" value="true" />
-      <created>1709046386140</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1709046386140</updated>
-    </task>
-    <task id="LOCAL-00016" summary="interfaces">
-      <option name="closed" value="true" />
-      <created>1709046431646</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1709046431646</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Main class, admins and ordmembers actions">
-      <option name="closed" value="true" />
-      <created>1709046838754</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1709046838754</updated>
-    </task>
-    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="2nd commit" />
-    <MESSAGE value="initial commit" />
-    <MESSAGE value="User class" />
-    <MESSAGE value="Log In and user class" />
-    <MESSAGE value="admin, ordmember, loan, book classes were created" />
-    <MESSAGE value="author class created" />
-    <MESSAGE value="log in  and sigh up handled" />
-    <MESSAGE value="interfaces" />
-    <MESSAGE value="Main class, admins and ordmembers actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main class, admins and ordmembers actions" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
