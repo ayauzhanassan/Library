@@ -20,5 +20,7 @@ public class Main {
             logOrSignUp = scanner.nextLine();
         } while (logOrSignUp.isEmpty() && !(logOrSignUp.equals("2") || logOrSignUp.equals("1")));
 
+
+
     }
 }
