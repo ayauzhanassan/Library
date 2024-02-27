@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01b90a11-8d85-4c52-98ba-14f070252c26" name="Changes" comment="Log In and user class">
-      <change afterPath="$PROJECT_DIR$/src/entities/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Loan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/OrdMember.java" afterDir="false" />
+    <list default="true" id="01b90a11-8d85-4c52-98ba-14f070252c26" name="Changes" comment="author class created">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709042063171</updated>
-      <workItem from="1709042064244" duration="2890000" />
+      <workItem from="1709042064244" duration="3744000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -132,7 +130,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709044556745</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="admin, ordmember, loan, book classes were created">
+      <option name="closed" value="true" />
+      <created>1709044984530</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709044984530</updated>
+    </task>
+    <task id="LOCAL-00009" summary="author class created">
+      <option name="closed" value="true" />
+      <created>1709045121112</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709045121113</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +157,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="User class" />
     <MESSAGE value="Log In and user class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Log In and user class" />
+    <MESSAGE value="admin, ordmember, loan, book classes were created" />
+    <MESSAGE value="author class created" />
+    <option name="LAST_COMMIT_MESSAGE" value="author class created" />
   </component>
 </project>

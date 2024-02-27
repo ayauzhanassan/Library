@@ -1,7 +1,7 @@
 package entities;
 
 public class User {
-    private int userUd;
+    private int userId;
     private String firstName;
     private String lastName;
     private String email;
@@ -19,11 +19,11 @@ public class User {
     }
 
     public int getUserUd() {
-        return userUd;
+        return userId;
     }
 
-    public void setUserUd(int userUd) {
-        this.userUd = userUd;
+    public void setUserId(int userUd) {
+        this.userId = userUd;
     }
 
     public String getFirstName() {
