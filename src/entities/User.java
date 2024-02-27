@@ -1,5 +1,5 @@
 package entities;
-import interfaces.ordinary_user.*;
+import interfaces.ordmember.*;
 import interfaces.admin.*;
 import interfaces.watchLoans;
 
