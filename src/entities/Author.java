@@ -3,13 +3,13 @@ package entities;
 public class Author {
     private int authorId;
     private String firstName;
-    private String lastName;
+    private String lastname;
 
-    public Author(){}
+    public Author() {};
 
-    public Author(String firstName, String lastName) {
+    public Author(String firstName, String lastname) {
         this.firstName = firstName;
-        this.lastName = lastName;
+        this.lastname = lastname;
     }
 
     public int getAuthorId() {
@@ -28,12 +28,12 @@ public class Author {
         this.firstName = firstName;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getLastname() {
+        return lastname;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
     }
 
     @Override
@@ -41,7 +41,7 @@ public class Author {
         return "Author{" +
                 "authorId=" + authorId +
                 ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
+                ", lastname='" + lastname + '\'' +
                 '}';
     }
 }
